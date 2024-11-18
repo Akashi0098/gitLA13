@@ -5,5 +5,6 @@ Members names:
 Blancha (leader)
 Atuel
 Burac
+Duran
 Cabigon
 Tarnate
