@@ -16,3 +16,13 @@ while choice.upper() != 'D':
         clearRec()
     elif choice.upper() == 'D':
         print("Thank you!")
+
+
+#VINCENT ERNIE T. ATUEL
+def addRec(): 
+    filename = "your_file_name_here.txt"  
+    name = input("Enter Name: ")
+    email = input("Enter Email: ")
+    addr = input("Enter Address: ")
+    with open(filename, 'a') as file:
+        file.write(name + ", " + email + ", " + addr + "\n")
