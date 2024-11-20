@@ -23,5 +23,10 @@ while choice.upper() != 'D':
     elif choice.upper() == 'E':
         print("Thank you!")
 
+#LuigiDuranClearRec()
+def clearRec():
+    file = open(filename, 'w')
+    file.write("")
+    file.close()
 
 
