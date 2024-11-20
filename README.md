@@ -1,5 +1,6 @@
 # Our first GitHub activity
-This is our first GitHub 
+
+This is our first GitHub
 activity.
 Members names:
 Blancha (leader)
@@ -8,3 +9,5 @@ Burac
 Duran
 Cabigon
 Tarnate
+
+#
