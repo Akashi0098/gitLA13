@@ -22,3 +22,10 @@ while choice.upper() != 'D':
         countRec()
     elif choice.upper() == 'E':
         print("Thank you!")
+
+
+def countRec():
+    with open(filename, 'r') as file:
+        lines = file.readlines()
+        print(f"Total records: {len(lines)}")
+
