@@ -7,7 +7,7 @@ print("E - Exit")
 choice = ""
 
 while choice.upper() != 'D':
-    choice = input("ENTER SELECTION [A, B, C, or D]: ")
+    choice = input("ENTER SELECTION [A, B, C, D or E]: ")
     if choice.upper() == 'A':
         print("Add Record")
         addRec()
